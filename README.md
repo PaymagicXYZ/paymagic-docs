@@ -1,4 +1,7 @@
-![Banner](/docs/img/banner.jpg)
+# Paymagic coming soon...
+
+
+![Banner](/img/banner.jpg)
 
 # Protekt Protocol
 [Protekt Protocol](https://protektprotocol.com/) makes DeFi secure and safe for mainstream users and institutionals. The protocol researches, rates, and wraps the best projects in DeFi, so users can confidently deposit into this new financial infrastructure. The goal is to support and catalyze the growth of the DeFi ecosystem by protecting users from getting rekt.
@@ -30,21 +33,21 @@ Protekt Protocol allows any smart contract to be backed by a **Protekt Contract*
 
 On the other side of the market, shield miners stake tokens to assume the liability of one or more pTokens, depending on their risk tolerance. They earn rewards for their service but can be liquidated if an exploit occurs and a successful claim is approvedd.
 
-![Protocol Comparison Diagram](/docs/img/pcDAI-paUSDC.png)
+![Protocol Comparison Diagram](/img/pcDAI-paUSDC.png)
 
 For example, users can deposit Dai that gets forwarded into the Compound cDAI pool and get pTokens (pcDAI) in return. pcDAI represents your underlying cDAI 1:1 plus 80% of the COMP farming rewards, while the other 20% goes to the shield miners as rewards. This fee is the user's ongoing "premium" for purchasing cover. pTokens can be minted at any time and redeemed for your cTokens + adjusted COMP rewards at any time.
 
 **In short, by holding a pToken, you pay 20% of your yield farming returns to be insured against hacks and smart contract bugs in the underlying capital pool.**
 
-![pToken Image](/docs/img/pTokenDiagram.png)
+![pToken Image](/img/pTokenDiagram.png)
 
 ## The PTK Token
-The [PTK token](/docs/ptk-token.md) is the governance and rewards token of the Protekt Protocol. It will be used to stake for assuming protocol liability, make governance decisions, receive rewards from protocol fees, provided as protocol incentives, and used to fund grants and audit reports for DeFi protocols that are covered by Protekt.
+The [PTK token](/ptk-token.md) is the governance and rewards token of the Protekt Protocol. It will be used to stake for assuming protocol liability, make governance decisions, receive rewards from protocol fees, provided as protocol incentives, and used to fund grants and audit reports for DeFi protocols that are covered by Protekt.
 
 ### Protocol Incentives (Yield Farming)
 PTK tokens can be earned by contributing capital (liquidity mining) and work, like completing tasks, writing documentation, writing code, translations, etc. 
 
-New rounds of PTK will be claimable by those completing tasks to support the protocol. Read more about protocol [contributions and rewards here](/docs/contributions-and-rewards.md).
+New rounds of PTK will be claimable by those completing tasks to support the protocol. Read more about protocol [contributions and rewards here](/contributions-and-rewards.md).
 
 ### Governance
 Governance will start and end with the Protekt community. The community will not only be PTK holders but also the hackers, devs, auditors, analysts, and actuaries that contribute their blood, sweat, and tears to DeFi. They will be the ones to propose coverage of new DeFi pools, adjust and critique settings, and keep DeFi safe at night. The protocol will maintain some level of centralization at the beginning so it can iterate quickly but will pursue a pathway of [progressive decentralization](https://a16z.com/2020/01/09/progressive-decentralization-crypto-product-management/) over time.
