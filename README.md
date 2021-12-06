@@ -1,5 +1,4 @@
-![Banner](/img/banner.jpg)
-
+![Banner](/docs/img/alt-banner.jpg)
 # Paymagic Documentation
 
 
