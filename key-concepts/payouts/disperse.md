@@ -38,6 +38,12 @@ var data = JSON.stringify({
 });
 ```
 
+Use the zero address for native tokens like ETH, MATIC, AVA
+
+```
+0x0000000000000000000000000000000000000000
+```
+
 **Response**
 
 The response from payout endpoints is an [ethers.js](https://docs.ethers.io) [TransactionReponse](https://docs.ethers.io/v5/api/providers/types/#providers-TransactionResponse) with a `meta` field that has additional information. By default, the `meta` field comes back with a value of `{status: 'pending'}`.
