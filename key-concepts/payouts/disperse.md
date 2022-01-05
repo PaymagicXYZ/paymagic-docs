@@ -5,6 +5,7 @@ Once you have a Smart Payout Account, you can initiate a batch transfer of ERC-2
 **Path**
 
 ```javascript
+// Path Structure
 //    /{chain}/account/{address} +
 //    /payout/disperse
 
