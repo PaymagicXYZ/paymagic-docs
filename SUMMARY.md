@@ -7,7 +7,8 @@
 ## Key Concepts
 
 * [🏦 Smart Accounts](key-concepts/smart-accounts.md)
-* [💳 Payouts](key-concepts/payouts.md)
+* [💳 Payouts](key-concepts/payouts/README.md)
+  * [/disperse](key-concepts/payouts/disperse.md)
 * [💱 Transactions](key-concepts/transactions.md)
 
 ## 👨💻 Endpoints

@@ -6,15 +6,16 @@ From a Smart Payout Account, customers can send out complex payouts with one sim
 
 * _/payout/disperse_ - Initiate a batch transfer of ERC-20 tokens
 * _/payout/transfer_ - Initiate a simple transfer of tokens to a single recipient
-* Coming Soon
-  * _/payout/disperseNFT_ - Initiate a batch transfer of ERC-721 or ERc-1155 token
-  * _/payout/airdrop_ - Initiate a MerkleDrop airdrop contract with claimable tokens
-  * Cross-chain and cross-asset conversion
 
-**Example POST /payout/disperse**
+The path for the request is structured as:
 
-```jsx
-var axios = require('axios');
+```javascript
+POST {baseURL}/v1/{chain}/account/{address}/payout/disperse
+```
+
+Body data:
+
+```
 var data = JSON.stringify({
   "assets": [
     "0xeb8f08a975Ab53E34D8a0330E0D34de942C95926"
@@ -26,13 +27,33 @@ var data = JSON.stringify({
     "0x869eC00FA1DC112917c781942Cc01c68521c415e"
   ]
 });
+```
+
+**Example POST /payout/disperse**
+
+```jsx
+var axios = require('axios');
+var data = JSON.stringify({
+  "assets": [
+    "0xeb8f08a975Ab53E34D8a0330E0D34de942C95926",
+    "0xeb8f08a975Ab53E34D8a0330E0D34de942C95926"
+  ],
+  "amounts": [
+    "10",
+    "10"
+  ],
+  "recipients": [
+    "0x869eC00FA1DC112917c781942Cc01c68521c415e",
+    "0x0D79AfBF97a401968836b9D906F3f87b20d45A72"
+  ]
+});
 
 var config = {
   method: 'post',
   url: '<https://wwikf9fdp9.execute-api.us-east-1.amazonaws.com/test/v1/rin/account/0x7328285B4435dbc51897DC2d900D21707d14253e/payout/disperse>',
   headers: { 
     'Content-Type': 'application/json', 
-    'X-API-KEY': '<Insert API Key>'
+    'X-API-KEY': 'LiSIgRO38P54sBskeaAtkZnrDGTAKEc1amq4W654' // Test API Key
   },
   data : data
 };

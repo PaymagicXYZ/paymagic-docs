@@ -1,26 +1,48 @@
-# 💳 Payouts
+# /disperse
 
-Once you have a Smart Payout Account, customers can send out complex payouts with one simple API call:
+Once you have a Smart Payout Account, you can initiate a batch transfer of ERC-20 tokens using the _/payout/disperse_ endpoint.
 
-* _/payout/disperse_ - Initiate a batch transfer of ERC-20 tokens
-* _/payout/disperseSingleToken_ - Initiate a batch transfer of a single ERC-20 token
-* _/payout/transfer_ - Initiate a simple transfer of tokens to a single recipient
-
-So the full URL looks like:
+**Path**
 
 ```javascript
-// {base}/v1 +
 //    /{chain}/account/{address} +
 //    /payout/disperse
 
-const path = `https://api.paymagic.xyz/v1` +
+const dispersePath = `https://api.paymagic.xyz/v1` +
     `/eth/account/0xe9e284277648fcdb09b8efc1832c73c09b5ecf59` + 
     `/payout/disperse`
+```
+
+**Request Body**
+
+Pass in three arrays corresponding to the payouts to make with this call:
+
+* assets - array of token addresses to payout
+* amounts - array of token amounts as strings, corresponding to assets array
+* recipients - array of recipient addresses, corresponding to assets+amounts
+
+```
+var data = JSON.stringify({
+  "assets": [
+    "0xf52f827f0826959c173b34e8a2a63cb4c38c67c8",
+    "0x375b18ec234e7801e79e49c76c468d86c331f22d"
+  ],
+  "amounts": [
+    "100",
+    "100"
+  ],
+  "recipients": [
+    "0x869eC00FA1DC112917c781942Cc01c68521c415e",
+    "0x0D79AfBF97a401968836b9D906F3f87b20d45A72"
+  ]
+});
 ```
 
 **Response**
 
 The response from payout endpoints is an [ethers.js](https://docs.ethers.io) [TransactionReponse](https://docs.ethers.io/v5/api/providers/types/#providers-TransactionResponse) with a `meta` field that has additional information. By default, the `meta` field comes back with a value of `{status: 'pending'}`.
+
+For more information on the `meta` field, see the [Transactions page](../transactions.md).
 
 ```
 {
