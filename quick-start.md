@@ -4,13 +4,13 @@
 
 From a Smart Payout Account, customers can send out complex payouts with one simple API call:
 
-* _/payout/disperse_ - Initiate a batch transfer of ERC-20 tokens to multiple recipients
-* _/payout/transfer_ - Initiate a simple transfer of ERC-20 tokens to a single recipient
+* _/payout/disperse_ - Initiate a batch transfer of ERC-20 tokens
+* _/payout/transfer_ - Initiate a simple transfer of tokens to a single recipient
 
 The path for the request is structured as:
 
 ```javascript
-POST https://api.paymagic.xyz/v1/{chain}/account/{address}/payout/disperse
+POST {baseURL}/v1/{chain}/account/{address}/payout/disperse
 ```
 
 Body data:
@@ -50,7 +50,7 @@ var data = JSON.stringify({
 
 var config = {
   method: 'post',
-  url: 'https://api.paymagic.xyz/v1/rin/account/0x7328285B4435dbc51897DC2d900D21707d14253e/payout/disperse>',
+  url: '<https://wwikf9fdp9.execute-api.us-east-1.amazonaws.com/test/v1/rin/account/0x7328285B4435dbc51897DC2d900D21707d14253e/payout/disperse>',
   headers: { 
     'Content-Type': 'application/json', 
     'X-API-KEY': 'LiSIgRO38P54sBskeaAtkZnrDGTAKEc1amq4W654' // Test API Key
