@@ -9,8 +9,8 @@ Every customer has 1 or more Smart Accounts, which can be on any EVM compatible 
 * On Polygon: _/**matic**/account/0xabc...def_
 * On Rinkeby: _/**rin**/account/0xabc...def_
 
-![Smart Payout Account Architecture: Onchain](<../.gitbook/assets/Paymagic Automate@2x(2).png>)
+![Smart Payout Account Architecture: Onchain](<../../.gitbook/assets/Paymagic Automate@2x(2).png>)
 
 In the future, Paymagic will support other Smart Accounts beyond Smart Payout Accounts.
 
-![](<../.gitbook/assets/Paymagic Protocol@2x(1).png>)
+![](<../../.gitbook/assets/Paymagic Protocol@2x(1).png>)

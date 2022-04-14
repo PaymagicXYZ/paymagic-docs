@@ -3,7 +3,7 @@
 Once you have a Smart Payout Account, customers can send out complex payouts with one simple API call:
 
 * _/payout/disperse_ - Initiate a batch transfer of ERC-20 tokens
-* _/payout/disperseSingleToken_ - Initiate a batch transfer of a single ERC-20 token
+* _/payout/disperseNFT_ - Initiate a batch transfer of NFTs (ERC-721)
 * _/payout/transfer_ - Initiate a simple transfer of tokens to a single recipient
 
 So the full URL for a _/disperse_ looks like:
@@ -17,10 +17,6 @@ const dispersePath = `https://api.paymagic.xyz/v1` +
     `/eth/account/0xe9e284277648fcdb09b8efc1832c73c09b5ecf59` + 
     `/payout/disperse`
 ```
-
-**Response**
-
-****
 
 **Response**
 
