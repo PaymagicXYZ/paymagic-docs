@@ -7,8 +7,8 @@
 ## Endpoints
 
 * [🏦 Smart Accounts](endpoints/smart-accounts/README.md)
-  * [POST /account](endpoints/smart-accounts/post-account.md)
-  * [GET /accounts \[To Do\]](endpoints/smart-accounts/get-accounts-to-do.md)
+  * [POST /account - Create Account](endpoints/smart-accounts/post-account-create-account.md)
+  * [GET /accounts - List Accounts](endpoints/smart-accounts/get-accounts-list-accounts.md)
 * [💳 Payouts](endpoints/payouts/README.md)
   * [POST /disperse](endpoints/payouts/post-disperse.md)
   * [POST /disperseNFT](endpoints/payouts/post-dispersenft.md)
