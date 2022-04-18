@@ -1,3 +1,7 @@
+---
+description: List Accounts
+---
+
 # GET /accounts \[To Do]
 
 Once you have a Smart Payout Account, you can initiate a batch transfer of ERC-20 tokens using the _/payout/disperse_ endpoint.
