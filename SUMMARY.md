@@ -11,5 +11,6 @@
   * [GET /accounts - List Accounts](endpoints/smart-accounts/get-accounts-list-accounts.md)
 * [💳 Payouts](endpoints/payouts/README.md)
   * [POST /disperse](endpoints/payouts/post-disperse.md)
-  * [POST /disperseNFT](endpoints/payouts/post-dispersenft.md)
+  * [POST /transfer](endpoints/payouts/post-transfer.md)
+  * [POST /disperseNFT \[Coming Soon\]](endpoints/payouts/post-dispersenft-coming-soon.md)
 * [💱 Transactions](endpoints/transactions.md)
