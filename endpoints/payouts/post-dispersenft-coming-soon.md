@@ -1,4 +1,4 @@
-# POST /disperseNFT
+# POST /disperseNFT \[Coming Soon]
 
 Once you have a Smart Payout Account, you can initiate a batch transfer of ERC-721 NFTs using the _/payout/disperseNFT_ endpoint.
 
@@ -29,8 +29,8 @@ var data = JSON.stringify({
     "0x375b18ec234e7801e79e49c76c468d86c331f22d"
   ],
   "tokenIDs": [
-    "100",
-    "100"
+    "1",
+    "2"
   ],
   "recipients": [
     "0x869eC00FA1DC112917c781942Cc01c68521c415e",
