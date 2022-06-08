@@ -23,7 +23,7 @@ const createAccountPath = `https://api.paymagic.xyz/v1` +
 Pass in an array of signers that have rights to the Safe.&#x20;
 
 {% hint style="danger" %}
-The signer addresses MUST be secure and CANNOT have a compromised private key, otherwise, your funds are at risk. We recommend using a hardware wallet, like a [Ledger](https://www.ledger.com) or a [Trezor](https://trezor.io), for the signer address.
+The signer addresses MUST be secure and CANNOT have a compromised private key, otherwise, your funds are at risk. We recommend using a hardware wallet, like a [Ledger](https://www.ledger.com/) or a [Trezor](https://trezor.io/), for the signer address.
 {% endhint %}
 
 * signers - an array of signer addresses that you or your customers securely control

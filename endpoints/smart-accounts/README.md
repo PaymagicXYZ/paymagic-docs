@@ -1,6 +1,6 @@
 # 🏦 Smart Accounts
 
-The Automate API is centered around the concept of a **Smart Account,** which is a customized [Gnosis Safe](https://gnosis-safe.io) with a 1 of 2 multi-sig threshold where the customer controls one key and Paymagic controls the other. A Smart Payout Account allows automated transaction execution, batching, fraud prevention, gas management, and cross-chain execution.
+The Automate API is centered around the concept of a **Smart Account,** which is a customized [Gnosis Safe](https://gnosis-safe.io/) with a 1 of 2 multi-sig threshold where the customer controls one key and Paymagic controls the other. A Smart Payout Account allows automated transaction execution, batching, fraud prevention, gas management, and cross-chain execution.
 
 Every customer has 1 or more Smart Accounts, which can be on any EVM compatible chain.
 

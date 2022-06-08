@@ -1,6 +1,6 @@
 # ▶ Authentication
 
-The Paymagic Automate API requires an API Key to access any of the endpoints. In the future, we may add additional methods of authentication and authorization like [OAuth](https://oauth.net) or [signed messages from Ethereum Addresses](https://login.xyz).
+The Paymagic Automate API requires an API Key to access any of the endpoints. In the future, we may add additional methods of authentication and authorization like [OAuth](https://oauth.net/) or [signed messages from Ethereum Addresses](https://login.xyz/).
 
 The Paymagic Team will provide customers with an API Key, which must be kept safe and secure. Access to a customer's API Key can result in the loss of funds.
 
