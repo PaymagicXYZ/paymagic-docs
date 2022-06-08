@@ -28,7 +28,7 @@ var data = JSON.stringify({
     "0xf52f827f0826959c173b34e8a2a63cb4c38c67c8",
     "0x375b18ec234e7801e79e49c76c468d86c331f22d"
   ],
-  "tokenIDs": [
+  "tokenIds": [
     "1",
     "2"
   ],
