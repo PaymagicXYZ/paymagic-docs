@@ -5,7 +5,7 @@ The Automate API is centered around the concept of a **Smart Account,** which is
 Every customer has 1 or more Smart Accounts, which can be on any EVM compatible chain.
 
 * On Ethereum Mainnet: _/**eth**/account/0xabc...def_
-* On Avalanche: _/**ava**/account/0xabc...def_
+* On Optimism: _/**oeth**/account/0xabc...def_
 * On Polygon: _/**matic**/account/0xabc...def_
 * On Rinkeby: _/**rin**/account/0xabc...def_
 
